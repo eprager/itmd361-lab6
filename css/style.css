@@ -2,12 +2,14 @@
   background-color: blue;
   overflow: hidden;
   width: 100%;
+  position: relative;
 }
 
 #navbar-container{
   position: relative;
   display: block;
- 
+  float: left;
+  left: 50%;
 }
 
 #navbar-container ul {
@@ -15,12 +17,13 @@
   margin: 0;
   padding: 0;
   position: relative;
-  
+  right: 50%;
+  float: left;
+  display: block;
 }	
 
 #navbar-container ul li {
   float: left;
-  position: relative;
   padding: 10px 20px;
 }
 
@@ -32,16 +35,6 @@
 #onpage{
   text-decoration: underline overline;
   color: #fff;
-}
-
-.other{
-  
-  
-  position: relative;
-  
-  
-  
-  background-color: #000;
 }
 
 #sidebar{
